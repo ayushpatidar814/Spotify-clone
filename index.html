@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link
+      rel="shortcut icon"
+      href="/Images/Spotifyfavicon.webp"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left bg-black">
+        <div class="close">
+          <img class="invert" src="/svgs/close.svg" alt="" />
+        </div>
+        <div class="home bg-gray rounded m-1 p-1">
+          <div class="logo">
+            <img class="invert" src="/svgs/logo.svg" alt="logo" />
+            <h1>Spotify's Clone</h1>
+          </div>
+          <ul>
+            <li>
+              <img class="invert" src="/svgs/home.svg" alt="home" />
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <img class="invert" src="/svgs/search.svg" alt="search" /><a href="#"
+                >Search</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-gray rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="/svgs/playlist.svg" alt="playlist" />
+            <h2>Your Library</h2>
+          </div>
+          <div class="songlist">
+            <ul></ul>
+          </div>
+
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/"
+                ><span>Legal</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                ><span>Safety &amp; Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right border bg-black">
+        <div class="header bg-gray rounded m-1">
+          <div class="nav">
+            <div class="hamburgerContainer">
+              <img class="invert hamburger" src="/svgs/hamburger.svg" alt="" />
+              <div class="invert arrow">
+                <div class="arrows">
+                  <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                  <svg
+                    height="512px"
+                    id="Layer_1"
+                    style="enable-background: new 0 0 512 512"
+                    version="1.1"
+                    viewBox="0 0 512 512"
+                    width="512px"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <polygon
+                      points="352,115.4 331.3,96 160,256 331.3,416 352,396.7 201.5,256 "
+                    />
+                  </svg>
+                </div>
+                <div class="arrows">
+                  <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                  <svg
+                    height="512px"
+                    id="Layer_1"
+                    style="enable-background: new 0 0 512 512"
+                    version="1.1"
+                    viewBox="0 0 512 512"
+                    width="512px"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <polygon
+                      points="160,115.4 180.7,96 352,256 180.7,416 160,396.7 310.5,256 "
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <button id="btn1"><a href="#">Sign-Up</a></button>
+            <button id="btn2"><a href="#">Log-In</a></button>
+          </div>
+        </div>
+        <div class="spotifyPlaylists">
+          <h1>Spotify Playlists</h1>
+          <div class="cardContainer"></div>
+        </div>
+        <div class="playbar">
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+          <div class="abovebar">
+            <div class="songinfo"></div>
+            <div class="songbuttons">
+              <img id="previous" src="/svgs/prevplay.svg" alt="" />
+              <img id="play" src="/svgs/play.svg" alt="" />
+              <img id="next" src="/svgs/nextplay.svg" alt="" />
+            </div>
+            <div class="songtime" id="songtime"></div>
+            <div class="volumebar">
+              <img src="/svgs/volume.svg" alt="" />
+              <div class="range invert">
+                <input type="range" name="volume" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
