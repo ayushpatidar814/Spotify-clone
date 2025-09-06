@@ -92,7 +92,7 @@ async function displayAlbums(){
               </div>
               <img src="/songs/${folder}/cover.jpg" alt=""/>
               <h2>${response.title}</h2>
-              <p>${response.description}</p>
+              <p class="cardDesc">${response.description}</p>
             </div>`
         }
     }
