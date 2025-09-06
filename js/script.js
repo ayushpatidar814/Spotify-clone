@@ -82,7 +82,7 @@ async function displayAlbums(){
             let folder = e.href.split("/").slice(-1)[0]
 
             // Get the metadata of the folder
-            let a = await fetch(`http://127.0.0.1:5500/songs/${folder}/info.json`)
+            let a = await fetch(`https://spotify-clone-six-theta-51.vercel.app/songs/${folder}/info.json`)
 
             let response = await a.json();
 
