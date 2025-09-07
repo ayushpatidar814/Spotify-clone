@@ -208,6 +208,8 @@ body{
 }
 .hamburger{
     display: none;
+    width: 35px;
+    height: 35px;
 }
 .hamburgerContainer{
     display: flex;
@@ -371,8 +373,12 @@ body{
 }
 @media(min-width: 400px) and (max-width: 780px){
     .card{
-        width: 46vw;
+        width: 82vw;
         height: 90%;
+    }
+    .songinfo{
+        min-width: 5px;
+        font-size: 12px;
     }
 }    
 @media(min-width: 780px) and (max-width: 1164px){

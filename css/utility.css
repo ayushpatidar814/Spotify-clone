@@ -30,3 +30,24 @@
 .p-1{
     padding: 10px;
 }
+
+/* Utility for flex on mobile only */
+@media (max-width: 768px) {
+    .flex-mobile {
+        display: flex;
+    }
+}
+
+/* Utility for hiding on mobile */
+@media (max-width: 768px) {
+    .hide-mobile {
+        display: none !important;
+    }
+}
+
+/* Utility for showing only on desktop */
+@media (min-width: 769px) {
+    .hide-desktop {
+        display: none !important;
+    }
+}
