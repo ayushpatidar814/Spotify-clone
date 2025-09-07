@@ -1,0 +1,98 @@
+{
+  "01-latest": {
+    "title": "Latest Hits",
+    "description": "The newest trending songs",
+    "author": "Ayush",
+    "tracks": ["BROWN-RANG.mp3", "MILLIONAIRE.mp3"]
+  },
+  "02-old": {
+    "title": "Old Classics",
+    "description": "Golden old songs",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "03-romance": {
+    "title": "Romantic Melodies",
+    "description": "Feel the love with these tracks",
+    "author": "Ayush",
+    "tracks": ["Mundian-To-Bach-Ke.mp3"]
+  },
+  "04-party": {
+    "title": "Party Vibes",
+    "description": "Songs to get the party started",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "05-rock": {
+    "title": "Rock Anthems",
+    "description": "Classic and modern rock hits",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "06-pop": {
+    "title": "Pop Sensations",
+    "description": "Top pop tracks from around the world",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "07-jazz": {
+    "title": "Jazz Essentials",
+    "description": "Smooth jazz tunes to relax",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "08-blues": {
+    "title": "Blues Classics",
+    "description": "Heartfelt blues tracks",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "09-electronic": {
+    "title": "Electronic Beats",
+    "description": "Upbeat electronic music",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "10-hiphop": {
+    "title": "Hip-Hop Hits",
+    "description": "Popular hip-hop tracks",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "11-country": {
+    "title": "Country Roads",
+    "description": "Best country songs for your mood",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "12-reggae": {
+    "title": "Reggae Rhythms",
+    "description": "Feel the island vibes",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "13-metal": {
+    "title": "Metal Mayhem",
+    "description": "Heavy metal tracks to rock out",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "14-classical": {
+    "title": "Classical Tunes",
+    "description": "Timeless classical music",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "15-folk": {
+    "title": "Folk Stories",
+    "description": "Traditional folk songs",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  },
+  "16-instrumental": {
+    "title": "Instrumental Bliss",
+    "description": "Relax with instrumental tracks",
+    "author": "Ayush",
+    "tracks": ["Parindey.mp3"]
+  }
+}

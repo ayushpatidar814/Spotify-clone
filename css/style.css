@@ -69,8 +69,11 @@ body{
 }
 .library{
     position: relative;
+    height: 570px;
 }
 .footer{
+    position: absolute;
+    bottom: 10px;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -223,17 +226,22 @@ body{
 .songlist ul li{
     list-style-type: decimal;
     display: flex;
+    flex-direction: row;
     cursor: pointer;
     border: 1px solid white;
     margin: 6px;
     padding: 4px;
     font-size: 12px;
     border-radius: 5px;
-    position: relative;
+    /* position: relative; */
 }
 .songlist ul li:hover{
     width: 96%;
     text-decoration: underline;
+}
+.cardlist{
+    display: flex;
+    padding: 8px;
 }
 .playnow{
     display: flex;
@@ -257,9 +265,9 @@ body{
     margin: 0px 10px;
 }
 .info{
-    padding-right: 3px;
+    padding: 8px;
     font-size: 12px;
-    width: 85px;
+    width: 215px;
 }
 .info div{
     word-break: break-all;
